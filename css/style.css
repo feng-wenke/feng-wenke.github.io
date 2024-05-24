@@ -32,7 +32,7 @@ body{
     color: #333333;
     padding: 10px 30px;
 }
-.nav a:hoven{
+.nav a:hover{
     background: red;
     color: #FFFFFF;
 }
