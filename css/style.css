@@ -32,10 +32,13 @@ body{
     color: #333333;
     padding: 10px 30px;
 }
-.nav .active,.nav a:hoven{
+.nav a:hoven{
     background: red;
     color: #FFFFFF;
 }
-
+.nav .active{
+    background: red;
+    color: #FFFFFF;
+}
 
     
