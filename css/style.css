@@ -29,7 +29,8 @@ body{
     padding: 10px 0;
 }
 .nav a{
-    align-items: center;
+    text-align: center;
+    text-decoration:none;
     color: #333333;
     padding: 10px 30px;
 }
