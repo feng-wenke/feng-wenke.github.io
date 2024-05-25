@@ -31,12 +31,11 @@ body{
 .nav a{
     text-align: center;
     text-decoration:none;
+    font-size: 16px;
     color: #333333;
     padding: 10px 30px;
 }
-.nav a:hover{
-    background: red;
-    color: #FFFFFF;
+
 }
 .nav .active{
     background: red;
