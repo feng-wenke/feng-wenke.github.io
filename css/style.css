@@ -23,14 +23,13 @@ body{
 .nav{
     width: 1000px;
     height: 70px;
-    align-items: center;
     margin: auto;
     background: #ffffff;
     text-align: center;
     padding: 10px 0;
 }
 .nav a{
-    text-decoration: none;
+    align-items: center;
     color: #333333;
     padding: 10px 30px;
 }
