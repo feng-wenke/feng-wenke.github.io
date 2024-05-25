@@ -9,7 +9,7 @@ body{
 .header-user{
     display: flex;
     align-items: center;
-    width: 700px;
+    width: 1000px;
     margin: 20px auto;
 }
 .header-user img{
