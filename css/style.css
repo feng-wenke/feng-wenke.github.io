@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     width: 1000px;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .header-user img{
     width: 320px;
