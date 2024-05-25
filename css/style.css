@@ -10,15 +10,15 @@ body{
     display: flex;
     align-items: center;
     width: 1000px;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 .header-user img{
     width: 320px;
     height: 180px;
     margin-right: 40px;
 }
-.header-user .text h2{
-    margin-bottom: 5px;
+.header-user .text h1{
+    margin-bottom: 20px;
 }
 .nav{
     width: 1000px;
