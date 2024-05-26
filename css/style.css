@@ -22,7 +22,6 @@ body{
 }
 .nav{
     width: 1000px;
-    height: 100px;
     margin: auto;
     background: #ffffff;
     text-align: center;
@@ -36,6 +35,20 @@ body{
     padding: 25px 40px;
 }
 
+.nav1{
+    width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+.nav1 a{
+    text-decoration:none;
+    font-size: 40px;
+    color: #333333;
+    padding: 25px 40px;
+}
 .nav .active,.nav a:hover{
     background: red;
     color: #FFFFFF;
