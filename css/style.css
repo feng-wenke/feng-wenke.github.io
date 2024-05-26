@@ -20,7 +20,7 @@ body{
 .header-user .text h1{
     margin-bottom: 20px;
 }
-.nav,.nav1,nav2{
+.nav,.nav1,.nav2{
     width: 1000px;
     margin: auto;
     background: #ffffff;
@@ -28,7 +28,7 @@ body{
     padding: 15px 0;
     
 }
-.nav a,.nav1 a,nav2 a{
+.nav a,.nav1 a,.nav2 a{
     text-decoration:none;
     font-size: 40px;
     color: #333333;
