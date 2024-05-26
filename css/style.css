@@ -20,7 +20,7 @@ body{
 .header-user .text h1{
     margin-bottom: 20px;
 }
-.nav{
+.nav,.nav1{
     width: 1000px;
     margin: auto;
     background: #ffffff;
@@ -28,28 +28,19 @@ body{
     padding: 15px 0;
     
 }
-.nav a{
+.nav a,.nav1 a{
     text-decoration:none;
     font-size: 40px;
     color: #333333;
     padding: 25px 40px;
 }
 
-.nav1{
-    width: 1000px;
-    margin: auto;
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    
-}
-.nav1 a{
-    text-decoration:none;
-    font-size: 40px;
-    color: #333333;
-    padding: 25px 40px;
-}
+
 .nav .active,.nav a:hover{
+    background: red;
+    color: #FFFFFF;
+}
+.nav1 .active,.nav1 a:hover{
     background: red;
     color: #FFFFFF;
 }
