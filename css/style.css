@@ -20,7 +20,7 @@ body{
 .header-user .text h1{
     margin-bottom: 20px;
 }
-.nav,.nav1,.nav2{
+.nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
     width: 1000px;
     margin: auto;
     background: #ffffff;
@@ -28,7 +28,7 @@ body{
     padding: 15px 0;
     
 }
-.nav a,.nav1 a,.nav2 a{
+.nav a,.nav1 a,.nav2 a,.nav3 a,.nav4 a,.nav5 a,.nav6 a{
     text-decoration:none;
     font-size: 40px;
     color: #333333;
@@ -48,5 +48,25 @@ body{
     background: red;
     color: #FFFFFF;
 }
+.nav3 .active,.nav3 a:hover{
+    background: red;
+    color: #FFFFFF;
+}
+
+.nav4 .active,.nav4 a:hover{
+    background: red;
+    color: #FFFFFF;
+}
+.nav5 .active,.nav5 a:hover{
+    background: red;
+    color: #FFFFFF;
+}
+.nav6 .active,.nav6 a:hover{
+    background: red;
+    color: #FFFFFF;
+}
+
+
+
   
     
