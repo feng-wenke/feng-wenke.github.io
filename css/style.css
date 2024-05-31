@@ -39,7 +39,7 @@ body.dark{
     width: 1000px;
     height:60px;
     margin-bottom: 10px;
-    background: #ffffff;
+    /*background: #ffffff;*/
     text-align: center;
     padding: 15px 0;
     color:var(--background-color);
@@ -49,6 +49,7 @@ body.dark{
 .nav a,.nav1 a,.nav2 a,.nav3 a,.nav4 a,.nav5 a,.nav6 a{
     text-decoration:none;
     color: var(--btn-color);
+    font-size:40px;
     padding: 25px 40px;
 }
 
