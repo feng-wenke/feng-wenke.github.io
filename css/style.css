@@ -14,8 +14,7 @@ body{
 
 body.dark{
     --background-color:#00FF00;
-    --color1:orange;
-    --color2:purple;
+    --btn-color:#9C9DEB;
 }
 .header-user{
     display: flex;
@@ -30,13 +29,11 @@ body.dark{
 }
 .header-user .text h1{
     margin-bottom: 20px;
-    --color2:red;
-    color:var(--color2);
+    color:red;
 }
 .header-user .text h2{
     margin-bottom: 20px;
-    --color2:blue;
-    color：var(--color2);
+    color:purple;
 }
 
 .nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
