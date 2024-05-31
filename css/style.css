@@ -109,7 +109,7 @@ body.dark{
     left:50%;
     transform:rotate(360deg)
 }
-.picture{
+.picture img{
         display:flex;
         width: 1000px;
         margin:auto;
