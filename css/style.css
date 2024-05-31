@@ -110,11 +110,8 @@ body.dark{
     transform:rotate(360deg)
 }
 .picture{
-    center{
         display:flex;
         width: 1000px;
         margin:auto;
-    }
 }
-
 
