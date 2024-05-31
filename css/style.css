@@ -111,7 +111,7 @@ body.dark{
 }
 .picture{
     center{
-        display:block;
+        display:flex;
         width: 1000px;
         margin:auto;
     }
