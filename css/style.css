@@ -10,6 +10,7 @@ body{
 
 body.dark{
     --background-color:grey;
+}
 .header-user{
     display: flex;
     align-items: center;
