@@ -8,12 +8,14 @@ body{
     justify-content:center;
     align-items:center;
     --background-color: #FFB6C1;
-    --btn-color:#e63946
+    --btn-color:#e63946;
     background:var(--background-color);   
 }
 
 body.dark{
     --background-color:#00FF00;
+    --color1:orange;
+    --color2:purple;
 }
 .header-user{
     display: flex;
@@ -28,11 +30,13 @@ body.dark{
 }
 .header-user .text h1{
     margin-bottom: 20px;
-    color:red;
+    --color2:red;
+    color:var(--color2);
 }
 .header-user .text h2{
     margin-bottom: 20px;
-    color:blue;
+    --color2:blue;
+    color：var(--color2);
 }
 
 .nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
