@@ -19,6 +19,7 @@ body{
 }
 .header-user .text h1{
     margin-bottom: 20px;
+    color:green;
 }
 .nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
     width: 1000px;
