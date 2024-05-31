@@ -88,6 +88,8 @@ body{
     height:40px;
     border-radius:20px;
     border:2px solid grey;
+    box-sizing:border-box;
+    padding:2px;
 }
 .switch-label:after{
     display:block;
