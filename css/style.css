@@ -4,7 +4,10 @@
 }
 body{
     color: #333;
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
+     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px white);
 }
 .header-user{
     display: flex;
