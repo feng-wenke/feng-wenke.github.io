@@ -9,7 +9,7 @@ body{
 }
 
 body.dark{
-    --background-color:grey;
+    --background-color:green;
 }
 .header-user{
     display: flex;
