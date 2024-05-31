@@ -79,7 +79,8 @@ body.dark{
 .switch{
     position:fixed;
     right:40px;
-    bottom:140px;
+    /*bottom:140px;*/
+    top:140px;
 }
 .switch-input{
     display:none;
