@@ -104,7 +104,7 @@ body.dark{
     border-radius:20px;
     transition:all .2s ease-in;
 }
-.switch-input；checked+ .switch-label；after{
+.switch-input:checked + .switch-label:after{
     left:50%;
     transform:rotate(360deg)
 }
