@@ -8,7 +8,7 @@ body{
     justify-content:center;
     align-items:center;
     --background-color: #FFB6C1;
-    --btn-color:#e63946;
+    --btn-color:#ffffff;
     background:var(--background-color);   
 }
 
@@ -78,7 +78,7 @@ body.dark{
 }
     
 
-/*.nav .active,.nav a:hover{
+.nav .active,.nav a:hover{
     background: red;
     color: #FFFFFF;
 }
@@ -106,7 +106,7 @@ body.dark{
 .nav6 .active,.nav6 a:hover{
     background: red;
     color: #FFFFFF;
-}*/
+}
 
 .switch{
     position:fixed;
