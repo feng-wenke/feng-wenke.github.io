@@ -109,5 +109,11 @@ body.dark{
     left:50%;
     transform:rotate(360deg)
 }
+.picture{
+    center{
+        display:block;
+        margin:auto;
+    }
+}
 
 
