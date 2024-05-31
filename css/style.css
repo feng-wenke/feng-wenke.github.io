@@ -4,12 +4,12 @@
 }
 body{
     color: #333;
-    --background-color: #fdc96c;
+    --background-color: #FFB6C1;
     background:var(--background-color);   
 }
 
 body.dark{
-    --background-color:green;
+    --background-color:#00FF00;
 }
 .header-user{
     display: flex;
