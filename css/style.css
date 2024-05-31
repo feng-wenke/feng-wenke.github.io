@@ -5,11 +5,11 @@
 body{
     color: #333;
     --background-color: #fdc96c;
-    background:var(--background-color);
-    
-    
-     
+    background:var(--background-color);   
 }
+
+body.dark{
+    --background-color:grey;
 .header-user{
     display: flex;
     align-items: center;
