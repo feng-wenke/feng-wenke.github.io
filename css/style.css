@@ -74,7 +74,10 @@ body{
     background: red;
     color: #FFFFFF;
 }
-
+.switch{
+    position:fixed;
+    right:40px;
+    bottom:140px;
 .switch-input{
     display:none;
 }
