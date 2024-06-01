@@ -10,7 +10,7 @@ body{
     --background-color: #FFB6C1;//pink
     --btn-color:#ffffff;//white
     --color1:#FF0000;//red
-    --color2:#800080;//purple
+    --h1-color:red;
     
     background:var(--background-color);   
 }
@@ -19,7 +19,7 @@ body.dark{
     --background-color:#00FF00;
     --btn-color:#9C9DEB;
     --color1:#FFB6C1;//pink
-    --color2:#FFFF00;//yellow
+    --h1-color:green;
 }
 .header-user{
     display: flex;
@@ -34,7 +34,7 @@ body.dark{
 }
 .header-user .text h1{
     margin-bottom: 20px;
-    color:red;
+    color:var(--h1-color);
 }
 .header-user .text h2{
     margin-bottom: 20px;
@@ -62,9 +62,9 @@ body.dark{
     font-size:40px;
     padding: 25px 40px;
 }
-.nav:before,.nav1:before,.nav2:before,.nav3:before,.nav4:before,.nav5:before,.nav6:before{
+/*.nav:before,.nav1:before,.nav2:before,.nav3:before,.nav4:before,.nav5:before,.nav6:before{
     transition:all  300ms linear;
-}
+}*/
 .nav:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
     color:orange;
 }
@@ -78,10 +78,10 @@ body.dark{
     background:var(--btn-color);
     z-index:-1;
 }
-.nav a:hover:before,.nav1 a:hover:before,.nav2 a:hover:before,.nav3 a:hover:before,.nav4 a:hover:before,.nav5 a:hover:before,.nav6 a:hover:before{
+/*.nav a:hover:before,.nav1 a:hover:before,.nav2 a:hover:before,.nav3 a:hover:before,.nav4 a:hover:before,.nav5 a:hover:before,.nav6 a:hover:before{
     left:0;
     right:0;
-}
+}*/
     
 
 .nav .active,.nav a:hover{
@@ -90,28 +90,28 @@ body.dark{
 }
 .nav1 .active,.nav1 a:hover{
     background: red;
-    color: var(--color2);
+    color: var(--color1);
 }
 .nav2 .active,.nav2 a:hover{
     background: red;
-    color: #FFFFFF;
+    color:var(--color1);
 }
 .nav3 .active,.nav3 a:hover{
     background: red;
-    color: #FFFFFF;
+    color:var(--color1);
 }
 
 .nav4 .active,.nav4 a:hover{
     background: red;
-    color: #FFFFFF;
+    color: var(--color1);
 }
 .nav5 .active,.nav5 a:hover{
     background: red;
-    color: #FFFFFF;
+    color:var(--color1);
 }
 .nav6 .active,.nav6 a:hover{
     background: red;
-    color: #FFFFFF;
+    color: var(--color1);
 }
 
 .switch{
