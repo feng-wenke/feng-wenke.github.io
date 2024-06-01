@@ -19,8 +19,6 @@ body.dark{
     --background-color:#00FF00;
     --btn-color:#9C9DEB;
     --color1:#FFB6C1;//pink
-    .nav:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
-    color:orange;
 }
     
     
@@ -66,13 +64,11 @@ body.dark{
     font-size:40px;
     padding: 25px 40px;
 }
-/*.nav:before,.nav1:before,.nav2:before,.nav3:before,.nav4:before,.nav5:before,.nav6:before{
-    transition:all  300ms linear;
-}*/
+
 .nav:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
     color:orange;
 }
-.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
+/*.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
     content:'';
     position:absolute;
     left:50%;
@@ -81,12 +77,8 @@ body.dark{
     top:0;
     background:var(--btn-color);
     z-index:-1;
-}
-/*.nav a:hover:before,.nav1 a:hover:before,.nav2 a:hover:before,.nav3 a:hover:before,.nav4 a:hover:before,.nav5 a:hover:before,.nav6 a:hover:before{
-    left:0;
-    right:0;
 }*/
-    
+
 
 .nav .active,.nav a:hover{
     background: red;
