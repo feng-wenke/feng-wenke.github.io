@@ -60,10 +60,9 @@ body.dark{
     padding: 25px 40px;
 }
 
-.nav:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
-    color:orange;
-}
-/*.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
+
+
+.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
     content:'';
     position:absolute;
     left:50%;
@@ -72,7 +71,7 @@ body.dark{
     top:0;
     background:var(--btn-color);
     z-index:-1;
-}*/
+}
 
 
 .nav .active,.nav a:hover{
