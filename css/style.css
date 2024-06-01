@@ -9,9 +9,6 @@ body{
     align-items:center;
     --background-color: #FFB6C1;//pink
     --btn-color:#ffffff;//white
-    --color1:#FF0000;//red
-    
-    
     background:var(--background-color);   
 }
 
@@ -78,32 +75,32 @@ body{
 
 .nav .active,.nav a:hover{
     background: red;
-    color: var(--color1);
+    color:orange;
 }
 .nav1 .active,.nav1 a:hover{
     background: red;
-    color: var(--color1);
+    color:orange;
 }
 .nav2 .active,.nav2 a:hover{
     background: red;
-    color:var(--color1);
+    color:orange;
 }
 .nav3 .active,.nav3 a:hover{
     background: red;
-    color:var(--color1);
+    color:orange;
 }
 
 .nav4 .active,.nav4 a:hover{
     background: red;
-    color: var(--color1);
+    color:orange;
 }
 .nav5 .active,.nav5 a:hover{
     background: red;
-    color:var(--color1);
+   color:orange;
 }
 .nav6 .active,.nav6 a:hover{
     background: red;
-    color: var(--color1);
+   color:orange;
 }
 
 .switch{
