@@ -15,11 +15,7 @@ body{
     background:var(--background-color);   
 }
 
-body.dark{
-    --background-color:#00FF00;
-    --btn-color:#9C9DEB;
-    --color1:#FFB6C1;//pink
-}
+
     
     
 
@@ -148,4 +144,8 @@ body.dark{
         width: 1000px;
         margin:auto;
 }
-
+body.dark{
+    --background-color:#00FF00;
+    --btn-color:#9C9DEB;
+    --color1:#FFB6C1;//pink
+}
