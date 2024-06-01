@@ -7,8 +7,11 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: #FFB6C1;
-    --btn-color:#ffffff;
+    --background-color: #FFB6C1;//pink
+    --btn-color:#ffffff;//white
+    --color1:#FF0000;//red
+    --color2:#FFFF00;//yellow
+    
     background:var(--background-color);   
 }
 
@@ -52,6 +55,7 @@ body.dark{
 
 .nav a,.nav1 a,.nav2 a,.nav3 a,.nav4 a,.nav5 a,.nav6 a{
     text-decoration:none;
+    height:60px;
     color: var(--btn-color);
     font-size:40px;
     padding: 25px 40px;
