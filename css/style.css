@@ -10,7 +10,7 @@ body{
     --background-color: #FFB6C1;//pink
     --btn-color:#ffffff;//white
     --color1:#FF0000;//red
-    
+    --color2:#FFA500;//orange
     
     background:var(--background-color);   
 }
@@ -19,7 +19,7 @@ body.dark{
     --background-color:#00FF00;
     --btn-color:#9C9DEB;
     --color1:#FFB6C1;//pink
-    
+    --color2:#C0D9D9;//blue
     
 }
 .header-user{
@@ -67,7 +67,7 @@ body.dark{
     transition:all  300ms linear;
 }*/
 .nav:hover,.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav6:hover{
-    color:orange;
+    color:var(--color2);
 }
 .nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
     content:'';
