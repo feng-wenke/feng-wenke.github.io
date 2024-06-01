@@ -10,7 +10,7 @@ body{
     --background-color: #FFB6C1;//pink
     --btn-color:#ffffff;//white
     --color1:#FF0000;//red
-    --h1-color:red;
+    
     
     background:var(--background-color);   
 }
@@ -19,7 +19,8 @@ body.dark{
     --background-color:#00FF00;
     --btn-color:#9C9DEB;
     --color1:#FFB6C1;//pink
-    --h1-color:green;
+    
+    
 }
 .header-user{
     display: flex;
@@ -34,7 +35,7 @@ body.dark{
 }
 .header-user .text h1{
     margin-bottom: 20px;
-    color:var(--h1-color);
+    color:red;
 }
 .header-user .text h2{
     margin-bottom: 20px;
