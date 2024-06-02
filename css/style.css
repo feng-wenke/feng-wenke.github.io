@@ -112,7 +112,7 @@ body.dark{
 }
 
 .switch{
-    position:fixed;
+    position:absolute;
     right:40px;
     /*bottom:140px;*/
     top:140px;
