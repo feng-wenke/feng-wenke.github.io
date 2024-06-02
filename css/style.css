@@ -148,6 +148,6 @@ body.dark{
 .picture img{
         display:flex;
         width: 1000px;
-        margin:auto;
+        margin-top:30px;
 }
 
