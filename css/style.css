@@ -145,14 +145,25 @@ body.dark{
     left:50%;
     transform:rotate(360deg)
 }
+
+
+.video-container {
+  position: relative;
+  width: 100%; /* 容器宽度为100%，以便视频能够填满容器 */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 使iframe宽度等于容器宽度 */
+  height: auto; /* 高度自动计算以保持纵横比 */
+}
+
 .picture img{
         display:flex;
         width: 1000px;
         margin-top:30px;
 }
-.picture1 img{
-        display:flex;
-        width: 1000px;
-        margin-top:30px;
-}
+
 
