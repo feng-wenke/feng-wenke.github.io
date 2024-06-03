@@ -7,10 +7,18 @@
 	<style>
         /* 视频容器样式，可以根据需要调整 */
         .video-container {
-            width: 1000px;
-            height: 750px;
-            margin-top:20px;
-        }
+  position: relative;
+  width: 100%; /* 容器宽度为100%，以便视频能够填满容器 */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 使iframe宽度等于容器宽度 */
+  height: auto; /* 高度自动计算以保持纵横比 */
+}
+        
     </style>
 </head>
 <body>
