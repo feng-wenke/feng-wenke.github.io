@@ -148,13 +148,16 @@ body.dark{
 
 
   .video-container {
-            width:800px;
             margin: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+.video-container iframe{
+    width:1000px;
+    height:750px;
+}
 .picture img{
         display:flex;
         width: 1000px;
