@@ -147,18 +147,14 @@ body.dark{
 }
 
 
-.video-container {
-  position: relative;
-  width: 100%; /* 容器宽度为100%，以便视频能够填满容器 */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; /* 使iframe宽度等于容器宽度 */
-  height: auto; /* 高度自动计算以保持纵横比 */
-}
+  .video-container {
+            height:1000px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
 .picture img{
         display:flex;
