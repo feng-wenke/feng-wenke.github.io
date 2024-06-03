@@ -148,14 +148,13 @@ body.dark{
 
 
   .video-container {
-            height:1000px;
+            width:1000px;
             margin: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-
 .picture img{
         display:flex;
         width: 1000px;
