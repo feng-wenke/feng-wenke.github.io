@@ -73,7 +73,7 @@
 	document.querySelector('#switch-input').addEventListener('click',() => {
 		document.body.classList.toggle('dark')})
 </script>
-	
+	<!-- bilibili视频插入需要在bilibili网页版的分享里面获得嵌入代码中的aid和cid -->
   <div class="video-container">
         <!-- 第一个视频 -->
         <iframe src="https://player.bilibili.com/player.html?aid=1701553841&cid=1465263810&page=1" 
@@ -98,12 +98,14 @@
     </div>
 
 	<div class="video-container">
-        <!-- 第四个视频 -->
        <iframe src="https://player.bilibili.com/player.html?aid=339649522&cid=548014675&page=1"
                 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
         </iframe>
     </div>
-
+          <!-- youtube视频插入可以直接在youtube的share里面复制嵌入代码(embed) -->
+	<div class='nav6'>
+        <a >以下视频需要科学上网</a>
+    </div>
 	<div class="video-container">
      <iframe  src="https://www.youtube.com/embed/GeeM2V15QFY?si=IYjJAt-Nxnnb7_G2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
