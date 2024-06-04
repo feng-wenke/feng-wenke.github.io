@@ -37,6 +37,26 @@ body.dark{
     color:purple;
 }
 
+.na{
+    width: 1000px;
+    height:80px;
+    margin-bottom: 30px;
+    /*background: #ffffff;*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(-btn-color);
+    border-radius:30px;
+    position:relative;
+}
+
+.na a{
+    text-decoration:none;
+    height:80px;
+    color: var(--btn-color);
+    font-size:60px;
+    padding: 25px 40px;
+}
 .nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
     width: 1000px;
     height:60px;
