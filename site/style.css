@@ -3,7 +3,6 @@
     padding: 0
 }
 body{
-    /*color: #333;*/
     height:40px;
     justify-content:center;
     align-items:center;
@@ -14,7 +13,6 @@ body{
 
 body.dark{
     --background-color:#00FF00;
-    --btn-color:#9C9DEB;
    
 }
     
