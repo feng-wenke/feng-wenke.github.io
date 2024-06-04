@@ -6,13 +6,13 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: #FFB6C1;//pink
+    --background-color: #0000FF;//blue
     --btn-color:#ffffff;//white
     background:var(--background-color);   
 }
 
 body.dark{
-    --background-color:#00FF00;
+    --background-color:#FFB6C1;//pink
    
 }
     
