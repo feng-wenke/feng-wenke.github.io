@@ -32,7 +32,7 @@ body.dark{
     color:purple;
 }
 
-.nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+.nav{
     width: 1000px;
     height:60px;
     margin-bottom: 10px;
@@ -46,7 +46,7 @@ body.dark{
     
 }
 
-.nav a,.nav1 a,.nav2 a,.nav3 a,.nav4 a,.nav5 a,.nav6 a{
+.nav a{
     text-decoration:none;
     height:60px;
     color: var(--btn-color);
@@ -56,7 +56,7 @@ body.dark{
 
 
 
-.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
+.nav a:before{
     content:'';
     position:absolute;
     left:50%;
@@ -71,31 +71,6 @@ body.dark{
 .nav .active,.nav a:hover{
     background: red;
     color:orange;
-}
-.nav1 .active,.nav1 a:hover{
-    background: red;
-    color:orange;
-}
-.nav2 .active,.nav2 a:hover{
-    background: red;
-    color:orange;
-}
-.nav3 .active,.nav3 a:hover{
-    background: red;
-    color:orange;
-}
-
-.nav4 .active,.nav4 a:hover{
-    background: red;
-    color:orange;
-}
-.nav5 .active,.nav5 a:hover{
-    background: red;
-   color:orange;
-}
-.nav6 .active,.nav6 a:hover{
-    background: red;
-   color:orange;
 }
 
 .audio-player{
