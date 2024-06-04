@@ -1,1 +1,146 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    /*color: #333;*/
+    height:40px;
+    justify-content:center;
+    align-items:center;
+    --background-color: #FFB6C1;//pink
+    --btn-color:#ffffff;//white
+    background:var(--background-color);   
+}
 
+body.dark{
+    --background-color:#00FF00;
+    --btn-color:#9C9DEB;
+   
+}
+    
+.header-user{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.header-user .text h1{
+    margin-bottom: 20px;
+    color:red;
+}
+.header-user .text h2{
+    margin-bottom: 20px;
+    color:purple;
+}
+
+.nav,.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+    width: 1000px;
+    height:60px;
+    margin-bottom: 10px;
+    /*background: #ffffff;*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(-btn-color);
+    border-radius:30px;
+    position:relative;
+    
+}
+
+.nav a,.nav1 a,.nav2 a,.nav3 a,.nav4 a,.nav5 a,.nav6 a{
+    text-decoration:none;
+    height:60px;
+    color: var(--btn-color);
+    font-size:40px;
+    padding: 25px 40px;
+}
+
+
+
+.nav a:before,.nav1 a:before,.nav2 a:before,.nav3 a:before,.nav4 a:before,.nav5 a:before,.nav6 a:before{
+    content:'';
+    position:absolute;
+    left:50%;
+    right:50%;
+    bottom:0;
+    top:0;
+    background:var(--btn-color);
+    z-index:-1;
+}
+
+
+.nav .active,.nav a:hover{
+    background: red;
+    color:orange;
+}
+.nav1 .active,.nav1 a:hover{
+    background: red;
+    color:orange;
+}
+.nav2 .active,.nav2 a:hover{
+    background: red;
+    color:orange;
+}
+.nav3 .active,.nav3 a:hover{
+    background: red;
+    color:orange;
+}
+
+.nav4 .active,.nav4 a:hover{
+    background: red;
+    color:orange;
+}
+.nav5 .active,.nav5 a:hover{
+    background: red;
+   color:orange;
+}
+.nav6 .active,.nav6 a:hover{
+    background: red;
+   color:orange;
+}
+
+.audio-player{
+    height: 160px;
+    position:absolute;
+    right:40px;
+    top:-50px;
+}
+
+.switch{
+    position:absolute;
+    right:40px;
+    /*bottom:140px;*/
+    top:140px;
+}
+
+.switch-input{
+    display:none;
+}
+.switch-label{
+    display:block;
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    border:2px solid grey;
+    box-sizing:border-box;
+    padding:2px;
+}
+.switch-label:after{
+    display:block;
+    position:relative;
+    content:'';
+    width:50%;
+    height:100%;
+    left:0;
+    background:grey;
+    border-radius:20px;
+    transition:all .2s ease-in;
+}
+.switch-input:checked + .switch-label:after{
+    left:50%;
+    transform:rotate(360deg)
+}
+
+
+ 
