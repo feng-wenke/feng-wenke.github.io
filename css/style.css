@@ -7,14 +7,13 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: #FFB6C1;//pink
+   --background-color: #0000FF;//blue
     --btn-color:#ffffff;//white
     background:var(--background-color);   
 }
 
 body.dark{
-    --background-color:#00FF00;
-    --btn-color:#9C9DEB;
+    --background-color:#FFB6C1;//pink
    
 }
     
