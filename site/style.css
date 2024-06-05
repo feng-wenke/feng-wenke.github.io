@@ -117,7 +117,7 @@ body.dark{
     background-color: orange; /* 设置背景颜色 */
   }
 
-.botton-container {
+.button-container {
     width:1000px;
     text-align: center; /* 使按钮在容器内居中显示 */
     margin-bottom: 50px; /* 在按钮下方添加一些空间 */
