@@ -3,6 +3,7 @@
     padding: 0
 }
 body{
+    display:flex;
     height:40px;
     justify-content:center;
     align-items:center;
@@ -12,7 +13,7 @@ body{
 }
 
 body.dark{
-    --background-color:#BAC8A0;
+    --background-color:pink;
    
 }
     
