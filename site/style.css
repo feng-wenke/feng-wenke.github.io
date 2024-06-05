@@ -186,6 +186,6 @@ body{
     transform:rotate(360deg)
 }
 body.dark{
-    --background-color:#C0D9D9;
+    --background-color:#F5F5DC;
    --btn-color:orange;
 }
