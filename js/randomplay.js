@@ -1,21 +1,11 @@
-var musicList = [
-  '../video/晚夜微风问海棠.mp3',
-  '../video/半壶纱.mp3',
-  '../video/精卫.mp3',
- ' ../video/记念.mp3',
-  '../video/阿嬷.mp3'
-  // 更多音乐文件...
-];
 
-// 获取音频播放器的 DOM 元素
-var audioPlayer = document.getElementById('audioPlayer');
-
-// 随机播放音乐的函数
 function playRandomMusic() {
   // 生成一个随机索引
+  var audioPlayer = document.getElementById('audioPlayer');
+  var musicList = audioPlayer.querySelectorAll('source');
   var randomIndex = Math.floor(Math.random() * musicList.length);
   // 更新音频源的 src 属性为随机选择的音乐文件
-  audioPlayer.src = musicList[randomIndex];
-  // 播放音乐
+  audioPlayer.src = musicList[randomIndex].src;
+  audioPlayer.load();
   audioPlayer.play();
 }
