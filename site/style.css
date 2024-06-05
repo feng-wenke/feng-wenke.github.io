@@ -121,7 +121,6 @@ body.dark{
     width:1000px;
     text-align: center; /* 使按钮在容器内居中显示 */
     margin-bottom: 50px; /* 在按钮下方添加一些空间 */
-    background-color: orange; /* 设置背景颜色 */
   }
 
 .button{
@@ -130,6 +129,7 @@ body.dark{
      border: 2px solid #000; /* 添加边框 */
     padding: 10px; /* 在按钮内容和边框之间添加一些空间 */
     border-radius: 10px; /* 添加圆角 */
+     background-color: orange; /* 设置背景颜色 */
 }
 
 
