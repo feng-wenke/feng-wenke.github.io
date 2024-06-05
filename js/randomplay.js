@@ -14,7 +14,5 @@ function playRandomMusic() {
   // 更新音频源的 src 属性为随机选择的音乐文件
  audioPlayer.src = musicPath;
   // 播放音乐
-  audioPlayer.play().catch(error => {
-    console.error('播放音乐时出错:', error);
-  });
+  audioPlayer.play();
 }
