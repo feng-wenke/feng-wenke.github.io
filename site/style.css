@@ -123,15 +123,19 @@ body.dark{
     margin-bottom: 50px; /* 在按钮下方添加一些空间 */
   }
 
-.button{
-    height: 200px;
-    position:absolute;
-     border: 2px solid #000; /* 添加边框 */
-    padding: 10px; /* 在按钮内容和边框之间添加一些空间 */
-    border-radius: 10px; /* 添加圆角 */
-     background-color: orange; /* 设置背景颜色 */
+.botton-container button{
+     padding: 10px 20px; /* 添加内边距 */
+    font-size: 40px; /* 设置字体大小 */
+    border: none; /* 移除边框 */
+    background-color: grey; /* 设置背景颜色 */
+    color: red; /* 设置文字颜色 */
+    cursor: pointer; /* 更改鼠标指针样式 */
+    border-radius: 5px; /* 添加圆角 */
 }
 
+.button-container button:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}
 
 .switch-input{
     display:none;
