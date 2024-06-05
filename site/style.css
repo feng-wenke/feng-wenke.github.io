@@ -6,13 +6,13 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: #0000FF;//blue
+    --background-color: #5B8982;
     --btn-color:#ffffff;//white
     background:var(--background-color);   
 }
 
 body.dark{
-    --background-color:#FFB6C1;//pink
+    --background-color:#BAC8A0;
    
 }
     
@@ -92,14 +92,13 @@ body.dark{
 
 
 .nav .active,.nav a:hover{
-    background: red;
-    color:orange;
+    background: #D47655;
+    color:#E1F8E1;
 }
 
 .switch{
     position:absolute;
     right:40px;
-    /*bottom:140px;*/
     top:100px;
 }
 
@@ -127,14 +126,14 @@ body.dark{
      padding: 10px 20px; /* 添加内边距 */
     font-size: 40px; /* 设置字体大小 */
     border: none; /* 移除边框 */
-    background-color: grey; /* 设置背景颜色 */
-    color: red; /* 设置文字颜色 */
+    background-color: 223C5F; /* 设置背景颜色 */
+    color: #E3927F; /* 设置文字颜色 */
     cursor: pointer; /* 更改鼠标指针样式 */
     border-radius: 5px; /* 添加圆角 */
 }
 
 .button-container button:hover {
-    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+    background-color: #F9ECDF; /* 鼠标悬停时的背景颜色 */
 }
 
 .switch-input{
