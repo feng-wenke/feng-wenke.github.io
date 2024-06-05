@@ -103,6 +103,24 @@ body.dark{
     top:100px;
 }
 
+.audio-player{
+    height: 160px;
+    position:absolute;
+    left:40px;
+    /*bottom:140px;*/
+    top:80px;
+}
+
+.button{
+    height: 160px;
+    width:auto
+    position:absolute;
+    left:40px;
+    /*bottom:140px;*/
+    top:130px;
+}
+
+
 .switch-input{
     display:none;
 }
