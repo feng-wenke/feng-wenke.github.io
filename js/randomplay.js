@@ -1,7 +1,9 @@
 var musicList = [
-  'music1.mp3',
-  'music2.mp3',
-  'music3.mp3'
+  '../video/晚夜微风问海棠',
+  '../video/半壶纱',
+  '../video/精卫',
+ ' ../video/记念',
+  '../video/阿嬷'
   // 更多音乐文件...
 ];
 
