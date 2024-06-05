@@ -6,8 +6,8 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: #5B8982;
-    --btn-color:orange;
+    --background-color: pink;
+    --btn-color:green;
     background:var(--background-color);   
 }
     
@@ -186,6 +186,6 @@ body{
     transform:rotate(360deg)
 }
 body.dark{
-    --background-color:pink;
-   --btn-color:green;
+    --background-color:#5B8982;
+   --btn-color:orange;
 }
