@@ -10,11 +10,6 @@ body{
     --btn-color:orange;
     background:var(--background-color);   
 }
-
-body.dark{
-    --background-color:pink;
-   --btn-color:green;
-}
     
 .header-user{
     display: flex;
@@ -189,4 +184,8 @@ body.dark{
 .switch-input:checked + .switch-label:after{
     left:50%;
     transform:rotate(360deg)
+}
+body.dark{
+    --background-color:pink;
+   --btn-color:green;
 }
