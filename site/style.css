@@ -123,7 +123,7 @@ body.dark{
     margin-bottom: 50px; /* 在按钮下方添加一些空间 */
   }
 
-.botton-container button{
+.button-container button{
      padding: 10px 20px; /* 添加内边距 */
     font-size: 40px; /* 设置字体大小 */
     border: none; /* 移除边框 */
