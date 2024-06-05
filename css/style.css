@@ -91,7 +91,10 @@ body.dark{
     background:var(--btn-color);
     z-index:-1;
 }
-
+.na .active,.na a:hover{
+    background: red;
+    color:orange;
+}
 
 .nav .active,.nav a:hover{
     background: red;
