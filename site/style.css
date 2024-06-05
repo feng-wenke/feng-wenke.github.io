@@ -96,13 +96,6 @@ body.dark{
     color:orange;
 }
 
-.audio-player{
-    height: 160px;
-    position:absolute;
-    right:40px;
-    bottom:140px;
-}
-
 .switch{
     position:absolute;
     right:40px;
