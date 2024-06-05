@@ -120,7 +120,7 @@ body.dark{
 .botton-container {
     width:1000px;
     text-align: center; /* 使播放器在容器内居中显示 */
-    margin-bottom: 30px; /* 在播放器下方添加一些空间 */
+    margin-bottom: 50px; /* 在播放器下方添加一些空间 */
   }
 
 .button{
