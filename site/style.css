@@ -82,8 +82,8 @@ body.dark{
 .nav a:before{
     content:'';
     position:absolute;
-    left:50%;
-    right:50%;
+    left:0;
+    right:0;
     bottom:0;
     top:0;
     background:var(--btn-color);
@@ -119,7 +119,7 @@ body.dark{
 
 .button{
     height: 500px;
-    width:auto
+    width:auto;
     position:absolute;
     left:40px;
     /*bottom:140px;*/
