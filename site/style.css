@@ -106,7 +106,7 @@ body.dark{
 .music-player-container {
     width:1000px;
     text-align: center; /* 使播放器在容器内居中显示 */
-    margin-bottom: 50px; /* 在播放器下方添加一些空间 */
+    margin-bottom: 30px; /* 在播放器下方添加一些空间 */
   }
 
 .music-player {
@@ -117,13 +117,18 @@ body.dark{
     background-color: orange; /* 设置背景颜色 */
   }
 
+.botton-container {
+    width:1000px;
+    text-align: center; /* 使播放器在容器内居中显示 */
+    margin-bottom: 30px; /* 在播放器下方添加一些空间 */
+  }
+
 .button{
-    height: 500px;
-    width:auto;
+    height: 200px;
     position:absolute;
-    left:40px;
-    /*bottom:140px;*/
-    top:130px;
+     border: 2px solid #000; /* 添加边框 */
+    padding: 10px; /* 在播放器内容和边框之间添加一些空间 */
+    border-radius: 10px; /* 添加圆角 */
 }
 
 
