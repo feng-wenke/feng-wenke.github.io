@@ -13,7 +13,7 @@ body{
 
 body.dark{
     --background-color:pink;
-   
+   --btn-color:green;
 }
     
 .header-user{
