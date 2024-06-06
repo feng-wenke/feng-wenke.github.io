@@ -8,7 +8,7 @@ body{
     align-items:center;
     --background-color: pink;
     --btn-color:blue;
-    --button-click:red;
+    --button-click:#70DB93;
     background:var(--background-color);   
 }
 
