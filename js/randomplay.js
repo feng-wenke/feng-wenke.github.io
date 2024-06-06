@@ -75,12 +75,12 @@ function togglePlayPause() {
     }
 }
 
-// 播放按钮
+// 播放/暂停按钮
 document.querySelector('.button-container button:first-child').addEventListener('click', function() {
-    playRandomMusic();
+    togglePlayPause();
 });
 
-// 播放/暂停按钮
+// 随机播放按钮
 document.querySelector('.button-container button:nth-child(2)').addEventListener('click', function() {
-    togglePlayPause();
+    playRandomMusic();
 });
