@@ -6,16 +6,16 @@ body{
     height:40px;
     justify-content:center;
     align-items:center;
-    --background-color: pink;
-    --btn-color:blue;
-    --button-click:#70DB93;
+    --background-color:#F5F5DC;/*米白*/
+   --btn-color:purple;/**/
+    --button-click:#00FFFF;/*青色*/
     background:var(--background-color);   
 }
 
 body.dark{
-    --background-color:#F5F5DC;/*米白*/
-   --btn-color:purple;/**/
-    --button-click:#00FFFF;/*青色*/
+    --background-color: pink;
+    --btn-color:blue;
+    --button-click:#70DB93;/*海蓝*/
 }
     
 .header-user{
