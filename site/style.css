@@ -80,13 +80,6 @@ body{
     color:#E1F8E1;
 }
 
-/*
-
-.nav .active,.nav a:hover{
-    background: #D47655;
-    color:#E1F8E1;
-}
-*/
 .switch{
     position:absolute;
     right:40px;
