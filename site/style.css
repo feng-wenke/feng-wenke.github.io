@@ -73,7 +73,9 @@ body{
     padding: 25px 40px;
     position: relative;
     overflow: hidden; /* 新增，确保伪元素的内容不会溢出 */
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease; /* 平滑过渡效果 */
 }
+
 
 .nav a:hover {
     color:purple;
