@@ -75,14 +75,15 @@ body{
     /*overflow: hidden;  新增，确保伪元素的内容不会溢出 */
 }
 
+.nav a:active {
+    background: #D47655; /* 按下时的背景色与悬停时的背景色相同 */
+}
 
 .nav a:hover {
     background:#D47655; /* 悬停时的背景色 */
 }
 
-.nav a:active {
-    background: #D47655; /* 按下时的背景色与悬停时的背景色相同 */
-}
+
 
 .switch{
     position:absolute;
@@ -115,7 +116,7 @@ body{
     font-size: 40px; /* 设置字体大小 */
     border: none; /* 移除边框 */
     background-color: 223C5F; /* 设置背景颜色 */
-    color: #E3927F; /* 设置文字颜色 */
+    color: black; /* 设置文字颜色 */
     cursor: pointer; /* 更改鼠标指针样式 */
     border-radius: 5px; /* 添加圆角 */
 }
