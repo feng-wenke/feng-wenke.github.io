@@ -51,65 +51,36 @@ function playRandomMusic() {
   
   // 播放音乐
   audioPlayer.play().catch(error => {
-    console.error('播放音乐时出错:', error);
+    console.error('播放音乐时出错：', error);
   });
 
   // 播放完成后，再次调用 playRandomMusic 函数
   audioPlayer.addEventListener('ended', function() {
     playRandomMusic();
   });
+
+  // 检查页面是否有其他音频元素在播放
+  checkForOtherAudio();
 }
 
-// 检测网页可见性变化
-document.addEventListener('visibilitychange', function() {
-  var audioPlayer = document.getElementById('audioPlayer');
-  if (document.visibilityState === 'hidden' && !audioPlayer.paused) {
-    audioPlayer.pause();
-  }
-});
-
-// 创建音频上下文
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-let isPlaying = false;
-
-// 创建一个GainNode，我们可以连接到音频输出
-const gainNode = audioContext.createGain();
-gainNode.connect(audioContext.destination);
-
-// 创建一个analyser节点
-const analyser = audioContext.createAnalyser();
-analyser.fftSize = 2048;
-const bufferLength = analyser.frequencyBinCount;
-const dataArray = new Uint8Array(bufferLength);
-
-// 定期检查音频输出
-function checkAudioOutput() {
-  requestAnimationFrame(checkAudioOutput);
-
-  // 将数据复制到dataArray中
-  analyser.getByteFrequencyData(dataArray);
-
-  // 检查是否有音频信号
-  let sum = 0;
-  for (let i = 0; i < bufferLength; i++) {
-    sum += dataArray[i];
-  }
-  const average = sum / bufferLength;
-
-  // 如果平均音量大于某个阈值，则认为有声音在播放
-  if (average > 10) {
-    if (!isPlaying) {
-      console.log('有声音在播放');
-      isPlaying = true;
-      // 暂停音乐播放器
-      if (!document.getElementById('audioPlayer').paused) {
-        document.getElementById('audioPlayer').pause();
-      }
-    }
-  } else {
-    isPlaying = false;
-  }
+function checkForOtherAudio() {
+  // 获取页面上所有的音频元素
+  var audioElements = document.querySelectorAll('audio');
+  
+  // 遍历所有的音频元素
+  audioElements.forEach(function(audioElement) {
+    audioElement.addEventListener('play', function() {
+      // 当有其他音频开始播放时，停止当前的音频播放
+      stopCurrentAudio(audioPlayer);
+    });
+  });
 }
 
-// 开始检测
-checkAudioOutput();
+function stopCurrentAudio(audioPlayer) {
+  // 停止当前的音频播放
+  audioPlayer.pause();
+  // 清除结束事件监听器
+  audioPlayer.removeEventListener('ended', playRandomMusic);
+  // 重新调用 playRandomMusic 函数来播放下一首歌曲
+  playRandomMusic();
+}
