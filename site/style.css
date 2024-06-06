@@ -93,6 +93,8 @@ body{
     border: 4px solid var(--btn-color);
     border-radius: 30px;
     position: relative;
+    display: flex; /* 使用flexbox布局 */
+    align-items: center; /* 垂直居中 */
 }
 
 .nav a {
@@ -104,16 +106,16 @@ body{
     padding: 0 40px; /* 仅在左右添加内边距，上下保持不变 */
     position: relative;
     overflow: hidden;
-    /* 将transition移至:hover中，以便只在悬停时应用 */
     text-align: center; /* 继承.nav的文本居中属性 */
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .nav a:hover {
     color: purple;
     background: #D47655;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 悬停时的字体阴影 */
-    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
+
 
 .switch{
     position:absolute;
