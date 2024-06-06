@@ -39,6 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+var isPlaying = false;
+
 function playRandomMusic() {
     var audioPlayer = document.getElementById('audioPlayer');
     var musicList = [
@@ -64,23 +66,24 @@ function playRandomMusic() {
     audioPlayer.addEventListener('ended', function() {
         playRandomMusic();
     });
+
+    // 设置播放状态为播放
+    isPlaying = true;
 }
 
 function togglePlayPause() {
     var audioPlayer = document.getElementById('audioPlayer');
-    if (audioPlayer.paused) {
-        audioPlayer.play();
-    } else {
+    if (isPlaying) {
+        // 如果正在播放，则暂停
         audioPlayer.pause();
+        isPlaying = false;
+    } else {
+        // 如果暂停，则播放
+        audioPlayer.play().catch(error => {
+            console.error('播放音乐时出错:', error);
+        });
+        isPlaying = true;
     }
 }
 
-// 播放/暂停按钮
-document.querySelector('.button-container button:first-child').addEventListener('click', function() {
-    togglePlayPause();
-});
-
-// 随机播放按钮
-document.querySelector('.button-container button:nth-child(2)').addEventListener('click', function() {
-    playRandomMusic();
-});
+// 播放/暂停
