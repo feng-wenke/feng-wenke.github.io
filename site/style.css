@@ -76,11 +76,11 @@ body{
 }
 
 .nav a:active {
-    background: #D47655; /* 按下时的背景色与悬停时的背景色相同 */
+    background: grey; /* 按下时的背景色与悬停时的背景色相同 */
 }
 
 .nav a:hover {
-    background:#D47655; /* 悬停时的背景色 */
+    background:grey; /* 悬停时的背景色 */
 }
 
 
@@ -155,6 +155,7 @@ body{
 body.dark{
     --background-color:#F5F5DC;
    --btn-color:blue;
+    --button-click:purple;
 }
  .video-container {
             margin: 10px;
