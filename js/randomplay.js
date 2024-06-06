@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // 监听哔哩哔哩视频播放状态
   function checkBilibiliVideoPlaying() {
     // 获取哔哩哔哩内嵌视频元素
-    const video = document.querySelector('.bilibili-player-video');
+    const video = document.querySelector('../site/index.html/video-container');
     // 检查视频是否正在播放
     if (video && video.playing) {
       // 停止音频播放器
