@@ -76,8 +76,8 @@ body{
 }
 
 .nav a:hover {
+    color:purple;
     background:#D47655; /* 悬停时的背景色 */
-    color:#E1F8E1;
 }
 
 .switch{
