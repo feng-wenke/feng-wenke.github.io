@@ -75,23 +75,11 @@ body{
     overflow: hidden; /* 新增，确保伪元素的内容不会溢出 */
 }
 /*
-.nav a:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background: transparent; /* 默认为透明 */
-    z-index: -1;
-    transition: all 0.2s ease-in; /* 新增，用于动画效果 */
-}
-*/
-.nav a:hover:before {
+.nav a:hover {
     background: var(--btn-color); /* 悬停时的背景色 */
 }
 
-
+*/
 
 .nav .active,.nav a:hover{
     background: #D47655;
