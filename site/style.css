@@ -14,7 +14,7 @@ body{
 
 body.dark{
     --background-color:#F5F5DC;/*米白*/
-   --btn-color:#70DB93;/*海蓝*/
+   --btn-color:purple;/**/
     --button-click:#00FFFF;/*青色*/
 }
     
