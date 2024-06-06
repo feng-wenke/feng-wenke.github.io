@@ -1,6 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-  playRandomMusic();
+  //移除加载自动播放代码
+  //playRandomMusic();
 });
 
 function playRandomMusic() {
