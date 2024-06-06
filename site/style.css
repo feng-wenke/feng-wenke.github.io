@@ -86,12 +86,12 @@ body{
     z-index: -1;
     transition: all 0.2s ease-in; /* 新增，用于动画效果 */
 }
-
+*/
 .nav a:hover:before {
     background: var(--btn-color); /* 悬停时的背景色 */
 }
 
-*/
+
 
 .nav .active,.nav a:hover{
     background: #D47655;
