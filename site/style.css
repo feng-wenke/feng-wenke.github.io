@@ -162,7 +162,8 @@ body.dark{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-        }
+            margin-bottom: 30px;
+}
 .video-container iframe{
     width:1000px;
     height:750px;
