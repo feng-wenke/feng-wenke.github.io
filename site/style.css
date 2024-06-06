@@ -74,18 +74,18 @@ body{
     position: relative;
     overflow: hidden; /* 新增，确保伪元素的内容不会溢出 */
 }
-/*
+
 .nav a:hover {
     background: var(--btn-color); /* 悬停时的背景色 */
 }
 
-*/
+/*
 
 .nav .active,.nav a:hover{
     background: #D47655;
     color:#E1F8E1;
 }
-
+*/
 .switch{
     position:absolute;
     right:40px;
