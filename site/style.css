@@ -8,6 +8,7 @@ body{
     align-items:center;
     --background-color: pink;
     --btn-color:green;
+    --button-click:red;
     background:var(--background-color);   
 }
     
@@ -71,7 +72,7 @@ body{
     font-size:40px;
     padding: 25px 40px;
     position: relative;
-    overflow: hidden; /* 新增，确保伪元素的内容不会溢出 */
+    /*overflow: hidden;  新增，确保伪元素的内容不会溢出 */
 }
 
 
@@ -120,7 +121,7 @@ body{
 }
 
 .button-container button:hover {
-    background-color: #F9ECDF; /* 鼠标悬停时的背景颜色 */
+    background-color: var(--button-click); /* 鼠标悬停时的背景颜色 */
 }
 
 .switch-input{
