@@ -76,7 +76,8 @@ body{
 }
 
 .nav a:hover {
-    background: var(--btn-color); /* 悬停时的背景色 */
+    background:#D47655; /* 悬停时的背景色 */
+    color:#E1F8E1;
 }
 
 /*
