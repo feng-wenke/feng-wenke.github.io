@@ -30,7 +30,24 @@ function playRandomMusic() {
   });
 }*/
 document.addEventListener('DOMContentLoaded', function() {
+  // 播放随机音乐
   playRandomMusic();
+
+  // 监听哔哩哔哩视频播放状态
+  function checkBilibiliVideoPlaying() {
+    // 获取哔哩哔哩内嵌视频元素
+    const video = document.querySelector('.bilibili-player-video');
+    // 检查视频是否正在播放
+    if (video && video.playing) {
+      // 停止音频播放器
+      var audioPlayer = document.getElementById('audioPlayer');
+      audioPlayer.pause();
+      console.log('哔哩哔哩内嵌视频正在播放，已停止音乐播放器');
+    }
+  }
+
+  // 每秒检查一次哔哩哔哩视频的播放状态
+  setInterval(checkBilibiliVideoPlaying, 1000);
 });
 
 function playRandomMusic() {
@@ -58,29 +75,4 @@ function playRandomMusic() {
   audioPlayer.addEventListener('ended', function() {
     playRandomMusic();
   });
-
-  // 检查页面是否有其他音频元素在播放
-  checkForOtherAudio();
-}
-
-function checkForOtherAudio() {
-  // 获取页面上所有的音频元素
-  var audioElements = document.querySelectorAll('audio');
-  
-  // 遍历所有的音频元素
-  audioElements.forEach(function(audioElement) {
-    audioElement.addEventListener('play', function() {
-      // 当有其他音频开始播放时，停止当前的音频播放
-      stopCurrentAudio(audioPlayer);
-    });
-  });
-}
-
-function stopCurrentAudio(audioPlayer) {
-  // 停止当前的音频播放
-  audioPlayer.pause();
-  // 清除结束事件监听器
-  audioPlayer.removeEventListener('ended', playRandomMusic);
-  // 重新调用 playRandomMusic 函数来播放下一首歌曲
-  playRandomMusic();
 }
