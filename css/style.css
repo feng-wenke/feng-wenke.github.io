@@ -104,11 +104,11 @@ body.dark{
     /*overflow: hidden;  新增，确保伪元素的内容不会溢出 */
 }
 
-.nav a:active {
+.nav a:active,.na a:active {
     background: red; /* 按下时的背景色与悬停时的背景色相同 */
 }
 
-.nav a:hover {
+.nav a:hover,.na a:active {
     background:red; /* 悬停时的背景色 */
 }
 .audio-player{
