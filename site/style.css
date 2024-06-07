@@ -17,7 +17,7 @@ body.dark{
     --btn-color:blue;
     --button-click:#70DB93;/*海蓝*/
 }
-    
+    /*
 .header-user{
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ body.dark{
     margin-bottom: 20px;
     color:purple;
 }
-
+*/
 .na{
     width: 1000px;
     height:80px;
