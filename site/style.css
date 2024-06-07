@@ -91,12 +91,6 @@ body.dark{
 
 
 
-.switch{
-    position:absolute;
-    right:40px;
-    top:100px;
-}
-
 .music-player-container {
     width:1000px;
     text-align: center; /* 使播放器在容器内居中显示 */
@@ -129,6 +123,12 @@ body.dark{
 
 .button-container button:hover {
     background-color: var(--button-click); /* 鼠标悬停时的背景颜色 */
+}
+
+.switch{
+    position:absolute;
+    right:40px;
+    top:50px;
 }
 
 .switch-input{
