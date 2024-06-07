@@ -57,6 +57,28 @@ body.dark{
     font-size:60px;
     padding: 25px 40px;
 }
+.na{
+    width: 1000px;
+    height:80px;
+    margin-bottom: 30px;
+    /*background: #ffffff;*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(--btn-color);
+    border-radius:30px;
+    position:relative;
+    
+}
+
+.na a{
+    text-decoration:none;
+    height:80px;
+    color: var(--btn-color);
+    font-size:60px;
+    padding: 25px 40px;
+}
+
 .nav{
     width: 1000px;
     height:60px;
@@ -71,35 +93,23 @@ body.dark{
     
 }
 
-.nav a{
-    text-decoration:none;
+.nav a {
+    /* ... 其他样式 ... */
+     text-decoration:none;
     height:60px;
     color: var(--btn-color);
     font-size:40px;
     padding: 25px 40px;
+    position: relative;
+    /*overflow: hidden;  新增，确保伪元素的内容不会溢出 */
 }
 
-
-
-.nav a:before{
-   content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background: transparent; /* 默认为透明 */
-    z-index: -1;
-    transition: all 0.2s ease-in; /* 新增，用于动画效果 */
-}
-.na .active,.na a:hover{
-    background: red;
-    color:orange;
+.nav a:active {
+    background: red; /* 按下时的背景色与悬停时的背景色相同 */
 }
 
-.nav .active,.nav a:hover{
-    background: red;
-    color:orange;
+.nav a:hover {
+    background:red; /* 悬停时的背景色 */
 }
 .audio-player{
     height: 160px;
