@@ -3,12 +3,12 @@
     padding: 0
 }
 body{
-    /*color: #333;*/
     height:40px;
     justify-content:center;
     align-items:center;
-   --background-color: #0000FF;//blue
-    --btn-color:#ffffff;//white
+    --background-color:#F5F5DC;/*米白*/
+   --btn-color:purple;/**/
+    --button-click:#00FFFF;/*青色*/
     background:var(--background-color);   
 }
 
