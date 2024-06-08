@@ -66,10 +66,6 @@ body.dark{
     /*position: relative;*/
 }
 
-.active {
-    background: red; /* 按下时的背景色与悬停时的背景色相同 */
-}
-
 .nav a:hover {
     background:red; /* 悬停时的背景色 */
 }
