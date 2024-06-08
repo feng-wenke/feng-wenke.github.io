@@ -89,7 +89,7 @@ body.dark{
 
 .button-container {
     width:1000px;
-    margin:20px auto 40px auto;/*居中*/
+    margin:20px auto 20px auto;/*居中*/
     text-align: center; /* 使按钮在容器内居中显示 */
   }
 
