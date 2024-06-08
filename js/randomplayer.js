@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
 var isPlaying = false;
 
 function playRandomMusic() {
+    var button = document.getElementById('myButton1');
+        button.classList.toggle('temp-background');
+    
     var audioPlayer = document.getElementById('audioPlayer');
     var musicList = [
         '../video/晚夜微风问海棠.mp3',
