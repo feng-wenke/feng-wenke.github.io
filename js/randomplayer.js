@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
 var isPlaying = false;
 
 function playRandomMusic() {
-    
     var audioPlayer = document.getElementById('audioPlayer');
     var musicList = [
         '../video/晚夜微风问海棠.mp3',
@@ -45,12 +44,6 @@ function playRandomMusic() {
 }
 
 function togglePlayPause() {
-    var button = document.getElementById('myButton1');
-        button.classList.toggle('temp-background');
-    setTimeout(function() {
-        button.classList.remove('temp-background');
-    }, 1000); // 1秒后恢复原样
-    
     var audioPlayer = document.getElementById('audioPlayer');
     if (isPlaying) {
         // 如果正在播放，则暂停
