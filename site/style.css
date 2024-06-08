@@ -63,8 +63,7 @@ body.dark{
     color: var(--btn-color);
     font-size:40px;
     padding: 25px 40px;
-    position: relative;
-    /*overflow: hidden;  新增，确保伪元素的内容不会溢出 */
+    /*position: relative;*/
 }
 
 .nav a:active {
