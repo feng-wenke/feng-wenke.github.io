@@ -15,7 +15,7 @@ function playRandomMusic() {
         button.classList.toggle('temp-background');
     setTimeout(function() {
         button.classList.remove('temp-background');
-    }, 100); // 0.1秒后恢复原样
+    }, 1000); // 1秒后恢复原样
     
     var audioPlayer = document.getElementById('audioPlayer');
     var musicList = [
