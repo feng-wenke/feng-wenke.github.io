@@ -79,7 +79,7 @@ body.dark{
     padding: 25px 40px;
 }
 
-.nav a,.na a:hover {
+.nav a:hover,.na a:hover {
     background:red; /* 悬停时的背景色 */
 }
 
