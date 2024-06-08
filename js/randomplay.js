@@ -59,3 +59,14 @@ function togglePlayPause() {
 }
 
 // 播放/暂停
+
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('.nav a');
+
+    links.forEach(function(link) {
+        link.addEventListener('click', function() {
+            // 切换.active类
+            this.classList.toggle('active');
+        });
+    });
+});
