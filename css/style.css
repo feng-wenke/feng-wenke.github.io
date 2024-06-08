@@ -140,7 +140,7 @@ body.dark{
 .picture img{
         display:flex;
         width: 1000px;
-        margin:10px auto 10px auto;
+        margin:10px auto 10px auto;/*居中*/
 
 }
 
