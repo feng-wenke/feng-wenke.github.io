@@ -21,7 +21,7 @@ body.dark{
 .na{
     width: 1000px;
     height:80px;
-    margin:0 auto 30px auto;
+    margin:0 auto 30px auto;/*盒子设置边距使盒子居中*/
     /*margin-bottom: 30px;*/
     text-align: center;
     padding: 15px 0;
@@ -45,7 +45,7 @@ body.dark{
 .nav{
     width: 1000px;
     height:60px;
-    margin: 5px auto 5px auto;
+    margin: 5px auto 5px auto;/*盒子设置边距使盒子居中*/
     /*background: #ffffff;*/
     text-align: center;
     padding: 15px 0;
