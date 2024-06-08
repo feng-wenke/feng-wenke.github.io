@@ -103,9 +103,9 @@ body.dark{
     border-radius: 5px; /* 添加圆角 */
 }
 
-.button-container button:hover {
-    background-color: var(--button-click); /* 鼠标悬停时的背景颜色 */
-    transition: background-color 0.1s; /* 瞬间过渡效果 */
+.button-container button:active {
+    background-color: var(--button-click); /* 鼠标点击时的背景颜色 */
+    transition: background-color 0.3s; /* 瞬间过渡效果 */
 }
 
 .switch{
