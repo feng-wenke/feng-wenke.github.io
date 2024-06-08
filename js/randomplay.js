@@ -15,7 +15,10 @@ function playRandomMusic() {
     var musicList = [
         '../video/晚夜微风问海棠.mp3',
         '../video/精卫.mp3',
-        '../video/记念.mp3',
+        '../video/不问别离.mp3',
+        '../video/天下.mp3',
+        '../video/人间惊鸿客.mp3',
+        '../video/半壶纱.mp3',
         '../video/阿嬷.mp3'
         // 更多音乐文件...
     ];
