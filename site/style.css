@@ -21,9 +21,8 @@ body.dark{
 .na{
     width: 1000px;
     height:80px;
-    align-items: center;
-    margin-bottom: 30px;
-    /*background: #ffffff;*/
+    margin:0 auto 30px auto;
+    /*margin-bottom: 30px;*/
     text-align: center;
     padding: 15px 0;
     color:var(--background-color);
@@ -44,7 +43,6 @@ body.dark{
 .nav{
     width: 1000px;
     height:60px;
-    align-items: center;
     margin-bottom: 10px;
     /*background: #ffffff;*/
     text-align: center;
