@@ -5,13 +5,9 @@
 body{
     height:40px;
     justify-content:center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     align-items:center;
     --background-color:#F5F5DC;/*米白*/
-   --btn-color:purple;/**/
+    --btn-color:purple;/**/
     --button-click:#00FFFF;/*青色*/
     background:var(--background-color);   
 }
