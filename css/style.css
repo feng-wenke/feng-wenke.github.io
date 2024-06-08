@@ -222,6 +222,7 @@ body.dark{
         display:flex;
         width: 1000px;
         margin-top:10px;
+    justify-content: center;
 }
 
 
