@@ -97,7 +97,7 @@ body.dark{
      padding: 10px 20px; /* 添加内边距 */
     font-size: 40px; /* 设置字体大小 */
     border: none; /* 移除边框 */
-    background-color: 223C5F; /* 设置背景颜色 */
+    background-color: orange; /* 设置背景颜色 */
     color: black; /* 设置文字颜色 */
     cursor: pointer; /* 更改鼠标指针样式 */
     border-radius: 5px; /* 添加圆角 */
