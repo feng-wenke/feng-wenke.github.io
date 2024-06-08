@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
 var isPlaying = false;
 
 function playRandomMusic() {
-    var button = document.getElementById('myButton2');
-        button.classList.toggle('temp-background');
-    setTimeout(function() {
-        button.classList.remove('temp-background');
-    }, 1000); // 1秒后恢复原样
     
     var audioPlayer = document.getElementById('audioPlayer');
     var musicList = [
