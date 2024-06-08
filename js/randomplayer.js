@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 var isPlaying = false;
-/*
+
 function playRandomMusic() {
     var button = document.getElementById('myButton2');
         button.classList.toggle('temp-background');
@@ -70,34 +70,4 @@ function togglePlayPause() {
     }
 }
 
-// 播放/暂停*/
-function playRandomMusic() {
-    var button = document.getElementById('myButton2');
-    button.classList.toggle('temp-background');
-    setTimeout(function() {
-        button.classList.remove('temp-background');
-    }, 0); // 立即恢复原样
-    
-    // ... 音乐播放逻辑 ...
-}
-
-function togglePlayPause() {
-    var button = document.getElementById('myButton1');
-    button.classList.toggle('temp-background');
-    setTimeout(function() {
-        button.classList.remove('temp-background');
-    }, 0); // 立即恢复原样
-    
-    var audioPlayer = document.getElementById('audioPlayer');
-    if (isPlaying) {
-        // 如果正在播放，则暂停
-        audioPlayer.pause();
-        isPlaying = false;
-    } else {
-        // 如果暂停，则播放
-        audioPlayer.play().catch(error => {
-            console.error('播放音乐时出错:', error);
-        });
-        isPlaying = true;
-    }
-}
+// 播放/暂停
