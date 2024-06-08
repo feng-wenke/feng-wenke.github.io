@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 var isPlaying = false;
 
 function playRandomMusic() {
-    var button = document.getElementById('myButton1');
+    var button = document.getElementById('myButton2');
         button.classList.toggle('temp-background');
     setTimeout(function() {
         button.classList.remove('temp-background');
@@ -50,6 +50,12 @@ function playRandomMusic() {
 }
 
 function togglePlayPause() {
+    var button = document.getElementById('myButton1');
+        button.classList.toggle('temp-background');
+    setTimeout(function() {
+        button.classList.remove('temp-background');
+    }, 1000); // 1秒后恢复原样
+    
     var audioPlayer = document.getElementById('audioPlayer');
     if (isPlaying) {
         // 如果正在播放，则暂停
