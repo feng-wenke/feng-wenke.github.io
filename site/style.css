@@ -45,7 +45,7 @@ body.dark{
 .nav{
     width: 1000px;
     height:60px;
-    margin-bottom: 5px auto;
+    margin: 5px auto;
     /*background: #ffffff;*/
     text-align: center;
     padding: 15px 0;
@@ -80,7 +80,7 @@ body.dark{
 .music-player-container {
     width:1000px;
     text-align: center; /* 使播放器在容器内居中显示 */
-    margin-bottom:0 auto 30px auto; /* 在播放器下方添加一些空间 */
+    margin:0 auto 30px auto; /* 在播放器下方添加一些空间 */
   }
 
 .music-player {
@@ -93,9 +93,8 @@ body.dark{
 
 .button-container {
     width:1000px;
-    margin:0 auto 50px auto;
+    margin:0 auto 50px auto;/*居中*/
     text-align: center; /* 使按钮在容器内居中显示 */
-    margin-bottom: 50px; /* 在按钮下方添加一些空间 */
   }
 
 .button-container button{
