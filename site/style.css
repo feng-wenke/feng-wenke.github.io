@@ -108,7 +108,7 @@ body.dark{
 }*/
 
 .temp-background {
-        background-color: var(--button-click); /* 点击时的背景色 */
+        background-color: #00FFFF; /* 点击时的背景色 */
         transition: background-color 0.1s; /* 瞬间过渡效果 */
     }
 .switch{
