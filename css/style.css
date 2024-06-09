@@ -36,27 +36,6 @@ body.dark{
     margin-bottom: 20px;
     color:purple;
 }
-
-.na{
-    width: 1000px;
-    height:80px;
-    margin:0 auto 30px auto;
-    text-align: center;
-    padding: 15px 0;
-    color:var(--background-color);
-    border:4px solid var(--btn-color);
-    border-radius:30px;
-    position:relative;
-}
-
-.na a{
-    text-decoration:none;
-    height:80px;
-    color: var(--btn-color);
-    font-size:60px;
-    padding: 25px 40px;
-}
-
 .nav{
     width: 1000px;
     height:60px;
