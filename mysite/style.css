@@ -3,15 +3,7 @@
     margin: 0;
     padding: 0
 }
-body{
-    height:40px;
-    justify-content:center;
-    align-items:center;
-    --background-color:#F5F5DC;/*米白*/
-    --btn-color:purple;/**/
-    --button-click:#00FFFF;/*青色*/
-    background:var(--background-color);   
-}
+
 
 body.dark{
     --background-color: pink;
