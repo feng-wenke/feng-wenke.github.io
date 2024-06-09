@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    height:40px;
+    justify-content:center;
+    align-items:center;
+    --background-color:#F5F5DC;/*米白*/
+    --btn-color:purple;/**/
+    --button-click:#00FFFF;/*青色*/
+    background:var(--background-color);   
+}
+
+body.dark{
+    --background-color: pink;
+    --btn-color:blue;
+    --button-click:#70DB93;/*海蓝*/
+}
+
+.na{
+    width: 1000px;
+    height:80px;
+    margin:0 auto 30px auto;/*盒子设置边距使盒子居中*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(--btn-color);
+    border-radius:30px;
+    position:relative;
+}
+
+.na a{
+    text-decoration:none;
+    height:80px;
+    color: var(--btn-color);
+    font-size:60px;
+    padding: 25px 40px;
+}
+
+.nav{
+    width: 1000px;
+    height:60px;
+    margin: 5px auto 5px auto;/*盒子设置边距使盒子居中*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(--btn-color);
+    border-radius:30px;
+    position:relative;
+    
+}
+
+.nav a {
+     text-decoration:none;
+    height:60px;
+    color: var(--btn-color);
+    font-size:40px;
+    padding: 25px 40px;
+}
+
+.nav a:hover {
+    background:red; /* 悬停时的背景色 */
+}
+
+.music-player-container {
+    width:1000px;
+    text-align: center; /* 使播放器在容器内居中显示 */
+    margin:20px auto 20px auto; 
+  }
+
+.music-player {
+    width: 300px; /* 设置播放器的宽度 */
+    border: 2px solid #000; /* 添加边框 */
+    padding: 10px; /* 在播放器内容和边框之间添加一些空间 */
+    border-radius: 10px; /* 添加圆角 */
+    background-color: orange; /* 设置背景颜色 */
+  }
+
+
+.button-container {
+    width:1000px;
+    margin:20px auto 20px auto;/*居中*/
+    text-align: center; /* 使按钮在容器内居中显示 */
+  }
+
+.button-container button{
+     padding: 10px 20px; /* 添加内边距 */
+    font-size: 40px; /* 设置字体大小 */
+    border: none; /* 移除边框 */
+    background-color: orange; /* 设置背景颜色 */
+    color: black; /* 设置文字颜色 */
+    cursor: pointer; /* 更改鼠标指针样式 */
+    border-radius: 5px; /* 添加圆角 */
+}
+
+.button-container button:active {
+    background-color: var(--button-click); /* 鼠标点击时的背景颜色 */
+    transition: background-color 0.3s; /* 瞬间过渡效果 */
+}
+
+.switch{
+    position:absolute;
+    right:40px;
+    top:50px;
+}
+
+.switch-input{
+    display:none;
+}
+.switch-label{
+    display:block;
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    border:2px solid grey;
+    box-sizing:border-box;
+    padding:2px;
+}
+.switch-label:after{
+    display:block;
+    position:relative;
+    content:'';
+    width:50%;
+    height:100%;
+    left:0;
+    background:grey;
+    border-radius:20px;
+    transition:all .2s ease-in;
+}
+.switch-input:checked + .switch-label:after{
+    left:50%;
+    transform:rotate(360deg)
+}
+
+ .video-container {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+}
+.video-container iframe{
+    width:1000px;
+    height:750px;
+}
