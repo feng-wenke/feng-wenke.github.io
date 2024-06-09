@@ -1,1 +1,140 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME</title>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+</head>
+<body>
+    
+	    
+	<div class='na'>
+        <a>WELCOME</a>
+        </div>
+	     
+
+	<div class="music-player-container">
+	<audio id="audioPlayer" class="music-player" controls>  </audio> 
+         </div>
+
+	
+	<div class="button-container">
+	 <button id="myButton1" onclick="togglePlayPause()">播放/暂停</button>
+	<button id="myButton2" onclick='playRandomMusic()'>随机切换</button>
+	</div>
+	
+	
+    <script src="../js/randomplayer.js"></script>
+
+
+	<div class="video-container">
+       <iframe src="https://player.bilibili.com/player.html?aid=1701553841&cid=1465263810&page=1"
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+    </div>
+
+
+	<div class="video-container">
+       <iframe src="https://player.bilibili.com/player.html?aid=358499348&cid=1196739260&page=1"
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+    </div>
+
+	<div class='nav'>
+	 <a href='https://axutongxue.com'>阿虚储物间</a>
+      <a href='https://www.pncao.com/'>叛逆草</a>
+      <a href='https://iui.su/3576/'>资源分享网站</a>    
+    </div>
+
+	<div class='nav'>
+       <a href='https://chatglm.cn/'>ChatGLM</a>
+        <a href='https://www.overleaf.com/'>Overleaf</a>
+          <a href='https://simpletex.net/'>SimpleTex</a>
+    </div>
+	
+    <div class='nav'>
+        <a href='https://snapany.com/zh'>视频解析下载</a>
+	    <a href='https://weibo.iiilab.com/'>视频解析下载</a>
+         <a href='https://audio-convert.com/cn'>音频转换器</a>
+       
+    </div>
+    
+    <div class='nav'>
+        <a href='https://www.iloveimg.com/zh-cn/compress-image'>图片压缩</a>
+	    <a href='https://quququ.cn/'>quququ</a>
+	     <a href='https://photoeditor.polarr.co/'>在线修图</a>
+    </div>
+
+     <div class='nav'>
+        <a href='https://9i67.top/'>初见影视</a>
+          <a href='https://zhuiyingmao5.com/'>追影猫</a>
+         <a href='http://lzx5.kxsou.net/'>橘猫影视</a>
+    </div>
+
+	<div class='nav'>
+        <a href='https://jiohub.top/'>JOJO影视</a>
+          <a href='https://atym.app/'>艾兔影漫</a>
+         <a href='https://www.freeok.vip/'>FreeOK</a>
+    </div>
+
+	<div class='nav'>
+        <a href='http://www.2t58.com/'>爱听音乐网</a>
+          <a href='https://www.gequbao.com/'>歌曲宝</a>
+	<a href='https://www.fangpi.net/'>放屁音乐网</a>
+    </div>
+
+	<div class='nav'>
+        <a href='https://www.mxdm4.com/'>MX动漫</a>
+          <a href='https://www.ziyedm.com/'>子夜动漫</a>
+         <a href='https://www.xiyedm.com/'>西野动漫</a>
+    </div>
+
+	<div class='nav'>
+        <a href='https://www.yalijuda.com/'>图片视频压缩</a>
+        <a href='https://91huajian.cn/'>在线简历</a>
+        <a href='https://www.polebrief.com/index'>polebrief</a>
+    </div>
+
+    <div class='nav'>
+        <a href='https://xiongdipan.com/'>兄弟盘</a>
+         <a href='https://hunhepan.com/'>混合盘</a>
+          <a href='https://www.kpanso.com/'>快盘搜</a>
+    </div>
+
+    <div class='nav'>
+	    <a href='https://cloudconvert.com/'>cloudconvert</a>
+	     <a href='https://www.alltoall.net/'>ALL TO ALL</a>
+	     <a href='https://tool.browser.qq.com/pdf_merge.html'>PDF合并</a>
+	    
+    </div>
+
+     <div class='nav'>
+        <a href='https://www.deepl.com/translator'>DeepL</a>
+          <a href='https://zhenti.burningvocabulary.com'>英语真题</a>
+         <a href='https://www.gkzenti.cn/'>考公考编真题</a>
+    </div>
+
+    <div class='nav'>
+       <a href='https://www.dbbqb.com/'>表情包搜索</a>
+        <a href='https://tool.browser.qq.com/'>工具箱</a>
+          <a href='https://tool.browser.qq.com/id_photo.html'>证件照生成</a>
+    </div>
+
+	<div class='nav'>
+       <a href='https://github.com/frank-wenke/Frank-wenke.github.io'>GitHub</a>
+        <a href='https://gitee.com/feng-wenke/Frank-wenke.github.io'>Gitee</a>
+    </div>
+
+<div class='switch'>
+	<input type='checkbox' id='switch-input' class='switch-input'>
+	<label for='switch-input' class='switch-label'></label>
+</div>
+<script>
+	document.querySelector('#switch-input').addEventListener('click',() => {
+		document.body.classList.toggle('dark')})
+</script>
+
+	
+</body>
+</html>
