@@ -184,9 +184,6 @@ body.dark{
         }
 
       }
-      body {
-          background: #f9f9f9;
-      }
       .photo-wrap {
           perspective: 800px;
           width: 800px;
