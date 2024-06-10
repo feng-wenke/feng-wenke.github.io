@@ -70,6 +70,57 @@
         transform: translateZ(0);;
         background: blue;
       }
+         .top img{
+              width: 200px;
+        height: 200px;
+        left: 100px;
+        top: -100px;
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+        background: red;
+      }
+      .bottom img{
+           width: 200px;
+        height: 200px;
+        left: 100px;
+        bottom: -100px;
+        transform: rotateX(90deg);
+        transform-origin: top;
+        background: grey;
+      }
+      .left img{
+           width: 200px;
+        height: 200px;
+        left: -100px;
+        bottom: 100px;
+        transform: rotateY(90deg);
+        transform-origin: right;
+        background: green;
+      }
+      .right img{
+           width: 200px;
+        height: 200px;
+        left: 300px;
+        bottom: 100px;
+        transform: rotateY(-90deg);
+        transform-origin: left;
+        background: yellow;
+      }
+      .front img{
+           width: 200px;
+        height: 200px;
+        left: 100px;
+        top: 100px;
+        transform: translateZ(200px);
+        background: black;
+      }
+      .back img{
+           width: 200px;
+        height: 200px;
+        left: 100px;
+        top: 100px;
+        transform: translateZ(0);;
+        background: blue;
       @keyframes rotate-frame {
         0% {
             transform: rotateX(0deg) rotateY(0deg);
