@@ -70,11 +70,11 @@
         transform: translateZ(0);;
         background: blue;
       }
-        .img{
-             width: 20px;
-        height: 20px;
-        }
-            
+        .slide img {
+  width: 100%; /* 或者只设置height */
+  height: auto; /* 或者只设置width */
+  object-fit: cover;
+}
       @keyframes rotate-frame {
         0% {
             transform: rotateX(0deg) rotateY(0deg);
