@@ -1,3 +1,4 @@
+//网页加载完成点击链接新标签页面打开链接
 document.addEventListener('DOMContentLoaded', function() {
   // 获取所有链接元素
   var links = document.querySelectorAll('a');
