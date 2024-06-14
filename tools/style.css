@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    height:40px;
+    justify-content:center;
+    align-items:center;
+    --background-color:#F5F5DC;/*米白*/
+    --btn-color:purple;/**/
+    --button-click:#00FFFF;/*青色*/
+    background:var(--background-color);   
+   }
+
+body.dark{
+    --background-color: #FAF0E6;
+    --btn-color:blue;
+    --button-click:#70DB93;/*海蓝*/
+}
+
+
+.na{
+    width: 1000px;
+    height:80px;
+    margin:0 auto 30px auto;/*盒子设置边距使盒子居中*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(--btn-color);
+    border-radius:30px;
+    position:relative;
+}
+
+.na a{
+    text-decoration:none;
+    height:80px;
+    color: var(--btn-color);
+    font-size:60px;
+    padding: 25px 40px;
+}
+
+.nav{
+    width: 1000px;
+    height:60px;
+    margin: 5px auto 5px auto;/*盒子设置边距使盒子居中*/
+    text-align: center;
+    padding: 15px 0;
+    color:var(--background-color);
+    border:4px solid var(--btn-color);
+    border-radius:30px;
+    position:relative;
+    
+}
+
+.nav a {
+     text-decoration:none;
+    height:60px;
+    color: var(--btn-color);
+    font-size:40px;
+    padding: 25px 40px;
+}
+
+.nav a:hover {
+    background:red; /* 悬停时的背景色 */
+}
+
+
+   
+
+.switch{
+    position:absolute;
+    right:40px;
+    top:50px;
+}
+
+.switch-input{
+    display:none;
+}
+.switch-label{
+    display:block;
+    width:80px;
+    height:40px;
+    border-radius:20px;
+    border:2px solid grey;
+    box-sizing:border-box;
+    padding:2px;
+}
+.switch-label:after{
+    display:block;
+    position:relative;
+    content:'';
+    width:50%;
+    height:100%;
+    left:0;
+    background:grey;
+    border-radius:20px;
+    transition:all .2s ease-in;
+}
+.switch-input:checked + .switch-label:after{
+    left:50%;
+    transform:rotate(360deg)
+}
+
+ 
